@@ -1,0 +1,38 @@
+@import '_variables'
+
+@media screen and (max-width 750px)
+  body
+    height auto
+    padding 8.533vw 9.733vw 5.333vw
+
+    header
+      margin-bottom 15.733vw
+      img
+        width 34vw
+
+  .section
+    flex-direction column
+    row-gap 15.733vw
+    margin-bottom 17.067vw
+    text-align center
+    &__title
+      margin-top unset
+      margin-bottom 3.867vw
+      line-height 9.2vw
+      font-size 6.267vw
+    &__description
+      margin-bottom 6.4vw
+      line-height 6.4vw
+      font-size 4vw
+    &__button
+      width 53.333vw
+      height 10.667vw
+      border-radius 5.333vw
+      font-size 3.067vw
+
+  .social__list
+    column-gap 2.667vw
+    justify-content center
+    &-item a
+      width 7.333vw
+      height @width
